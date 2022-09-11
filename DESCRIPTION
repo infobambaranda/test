@@ -1,0 +1,18 @@
+Package: test
+Title: Euclidean and Dijkstra Algorithms in R
+Version: 0.0.0.9000
+Authors@R: 
+    person("Connor", "Turner", , "contu434@student.liu.se", 
+           role = c("aut", "cre"))
+    person("Sachini", "Bambaranda", , "bamba063@student.liu.se", 
+           role = c("aut", "cre"))
+Description: A package that allows users to use a version of the Euclidean and 
+  Dijkstra algorithms to find the greatest common divisor of two numbers or the 
+  shortest distances between two vectors in a graph.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
